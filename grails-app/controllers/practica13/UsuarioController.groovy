@@ -110,7 +110,7 @@ class UsuarioController {
         render(view: "agregar_evento", model:["usuarios":usuarios])
     }
 
-    def registrar(){
+    def guardar(){
         def idUsuario = Integer.parseInt((String)params.get("usuario"))
         def idEvento = Integer.parseInt((String)params.get("evento"))
 

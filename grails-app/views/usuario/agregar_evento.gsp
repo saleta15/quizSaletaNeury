@@ -14,7 +14,7 @@
 
     <div class = "panel panel-default">
         <div class = "panel-body">
-            <g:form controller="usuario" action="registrar">
+            <g:form controller="usuario" action="guardar">
 
                 <label  for="usuario">Usuario:</label>
                 <g:select class="form-control" name="usuario"
@@ -31,7 +31,7 @@
                           optionKey="id"
                 />
                 <br>
-                <g:actionSubmit value="Registrar" class="btn btn-info"/>
+                <g:actionSubmit value="Guardar" class="btn btn-info"/>
             </g:form>
             <br>
         </div>
